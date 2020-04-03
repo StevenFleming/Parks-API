@@ -44,5 +44,14 @@ namespace Park.Controllers
       _db.SaveChanges();
     }
 
+
+    [HttpDelete("{id}")]
+    public void Delete(int id)
+    {
+      var nationalToDelete = _db.Nationals.FirstOrDefault(entry => entry.NationalId == id);
+      _db.Nationals.Remove(nationalToDelete);
+      _db.SaveChanges();
+    }
+
   }
 }

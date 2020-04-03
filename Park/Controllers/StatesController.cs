@@ -44,6 +44,14 @@ namespace Park.Controllers
       _db.SaveChanges();
     }
 
+    [HttpDelete("{id}")]
+    public void Delete(int id)
+    {
+      var stateToDelete = _db.States.FirstOrDefault(entry => entry.StateId == id);
+      _db.States.Remove(stateToDelete);
+      _db.SaveChanges();
+    }
+
 
   }
 }
