@@ -6,40 +6,40 @@ using Park.Models;
 
 namespace Park.Migrations
 {
-    [DbContext(typeof(ParkContext))]
-    partial class ParkContextModelSnapshot : ModelSnapshot
+  [DbContext(typeof(ParkContext))]
+  partial class ParkContextModelSnapshot : ModelSnapshot
+  {
+    protected override void BuildModel(ModelBuilder modelBuilder)
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
-        {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+      modelBuilder
+          .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
+          .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Park.National", b =>
-                {
-                    b.Property<int>("NationalId")
-                        .ValueGeneratedOnAdd();
+      modelBuilder.Entity("Park.National", b =>
+          {
+            b.Property<int>("NationalId")
+                      .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Name");
+            b.Property<string>("Name");
 
-                    b.HasKey("NationalId");
+            b.HasKey("NationalId");
 
-                    b.ToTable("Nationals");
-                });
+            b.ToTable("Nationals");
+          });
 
-            modelBuilder.Entity("Park.State", b =>
-                {
-                    b.Property<int>("StateId")
-                        .ValueGeneratedOnAdd();
+      modelBuilder.Entity("Park.State", b =>
+          {
+            b.Property<int>("StateId")
+                      .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Name");
+            b.Property<string>("Name");
 
-                    b.HasKey("StateId");
+            b.HasKey("StateId");
 
-                    b.ToTable("States");
-                });
+            b.ToTable("States");
+          });
 #pragma warning restore 612, 618
-        }
     }
+  }
 }

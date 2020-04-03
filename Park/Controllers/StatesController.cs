@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Park.Models;
 
 namespace Park.Controllers
@@ -32,6 +33,14 @@ namespace Park.Controllers
     public void Post([FromBody] State state)
     {
       _db.States.Add(state);
+      _db.SaveChanges();
+    }
+
+    [HttpPut("{id}")]
+    public void Put(int id, [FromBody] State state)
+    {
+      state.StateId = id;
+      _db.Entry(state).State = EntityState.Modified;
       _db.SaveChanges();
     }
 
