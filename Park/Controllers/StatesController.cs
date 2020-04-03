@@ -18,9 +18,16 @@ namespace Park.Controllers
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<State>> Get()
+    public ActionResult<IEnumerable<State>> Get(string location)
     {
-      return _db.States.ToList();
+      var query = _db.States.AsQueryable();
+
+      if (location != null)
+      {
+        query = query.Where(entry => entry.Location == location);
+      }
+
+      return query.ToList();
     }
 
     [HttpGet("{id}")]
