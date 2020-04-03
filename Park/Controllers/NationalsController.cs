@@ -18,13 +18,18 @@ namespace Park.Controllers
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<National>> Get(string location)
+    public ActionResult<IEnumerable<National>> Get(string location, string name)
     {
       var query = _db.Nationals.AsQueryable();
 
       if (location != null)
       {
         query = query.Where(entry => entry.Location == location);
+      }
+
+      if (name != null)
+      {
+        query = query.Where(entry => entry.Name == name);
       }
 
       return query.ToList();
