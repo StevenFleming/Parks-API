@@ -15,8 +15,8 @@ namespace Park.Controllers
     {
       _db = db;
     }
-    [HttpGet]
 
+    [HttpGet]
     public ActionResult<IEnumerable<State>> Get()
     {
       return _db.States.ToList();
