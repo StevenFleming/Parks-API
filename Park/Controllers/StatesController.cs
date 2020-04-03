@@ -7,11 +7,11 @@ namespace Park.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
-  public class StateController : ControllerBase
+  public class StatesController : ControllerBase
   {
     private ParkContext _db;
 
-    public StateController(ParkContext db)
+    public StatesController(ParkContext db)
     {
       _db = db;
     }
