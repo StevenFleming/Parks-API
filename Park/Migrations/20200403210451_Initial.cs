@@ -11,26 +11,26 @@ namespace Park.Migrations
                 name: "Nationals",
                 columns: table => new
                 {
-                    NationalID = table.Column<int>(nullable: false)
+                    NationalId = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Nationals", x => x.NationalID);
+                    table.PrimaryKey("PK_Nationals", x => x.NationalId);
                 });
 
             migrationBuilder.CreateTable(
                 name: "States",
                 columns: table => new
                 {
-                    StateID = table.Column<int>(nullable: false)
+                    StateId = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_States", x => x.StateID);
+                    table.PrimaryKey("PK_States", x => x.StateId);
                 });
         }
 

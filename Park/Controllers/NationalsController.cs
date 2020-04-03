@@ -22,6 +22,12 @@ namespace Park.Controllers
       return _db.Nationals.ToList();
     }
 
+    [HttpGet("{id}")]
+    public ActionResult<National> Get(int id)
+    {
+      return _db.Nationals.FirstOrDefault(entry => entry.NationalId == id);
+    }
+
     [HttpPost]
     public void Post([FromBody] National national)
     {

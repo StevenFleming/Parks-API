@@ -18,24 +18,24 @@ namespace Park.Migrations
 
             modelBuilder.Entity("Park.National", b =>
                 {
-                    b.Property<int>("NationalID")
+                    b.Property<int>("NationalId")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Name");
 
-                    b.HasKey("NationalID");
+                    b.HasKey("NationalId");
 
                     b.ToTable("Nationals");
                 });
 
             modelBuilder.Entity("Park.State", b =>
                 {
-                    b.Property<int>("StateID")
+                    b.Property<int>("StateId")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Name");
 
-                    b.HasKey("StateID");
+                    b.HasKey("StateId");
 
                     b.ToTable("States");
                 });

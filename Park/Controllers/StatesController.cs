@@ -22,12 +22,19 @@ namespace Park.Controllers
       return _db.States.ToList();
     }
 
+    [HttpGet("{id}")]
+    public ActionResult<State> Get(int id)
+    {
+      return _db.States.FirstOrDefault(entry => entry.StateId == id);
+    }
+
     [HttpPost]
     public void Post([FromBody] State state)
     {
       _db.States.Add(state);
       _db.SaveChanges();
     }
+
 
   }
 }
