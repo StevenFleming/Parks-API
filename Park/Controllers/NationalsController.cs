@@ -56,7 +56,6 @@ namespace Park.Controllers
       _db.SaveChanges();
     }
 
-
     [HttpDelete("{id}")]
     public void Delete(int id)
     {
