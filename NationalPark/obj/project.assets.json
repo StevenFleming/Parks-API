@@ -12156,21 +12156,15 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/NationalParks.csproj",
-      "projectName": "NationalParks",
-      "projectPath": "/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/NationalParks.csproj",
+      "projectUniqueName": "/Users/apple/Desktop/NationalParkAPI.Solution/NationalPark/NationalPark.csproj",
+      "projectName": "NationalPark",
+      "projectPath": "/Users/apple/Desktop/NationalParkAPI.Solution/NationalPark/NationalPark.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/",
+      "outputPath": "/Users/apple/Desktop/NationalParkAPI.Solution/NationalPark/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "/Users/apple/.nuget/NuGet/NuGet.Config"
-      ],
-      "originalTargetFrameworks": [
-        "netcoreapp2.2"
-      ],
+      "fallbackFolders": ["/usr/local/share/dotnet/sdk/NuGetFallbackFolder"],
+      "configFilePaths": ["/Users/apple/.nuget/NuGet/NuGet.Config"],
+      "originalTargetFrameworks": ["netcoreapp2.2"],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -12180,9 +12174,7 @@
         }
       },
       "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
+        "warnAsError": ["NU1605"]
       }
     },
     "frameworks": {
@@ -12214,9 +12206,7 @@
             "version": "[2.2.0, )"
           }
         },
-        "imports": [
-          "net461"
-        ],
+        "imports": ["net461"],
         "assetTargetFallback": true,
         "warn": true
       }

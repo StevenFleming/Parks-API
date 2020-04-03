@@ -4,12 +4,7 @@
     "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "compilationOptions": {
-    "defines": [
-      "TRACE",
-      "DEBUG",
-      "NETCOREAPP",
-      "NETCOREAPP2_2"
-    ],
+    "defines": ["TRACE", "DEBUG", "NETCOREAPP", "NETCOREAPP2_2"],
     "languageVersion": "",
     "platform": "",
     "allowUnsafe": false,
@@ -22,17 +17,17 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "NationalParks/1.0.0": {
+      "NationalPark/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0"
         },
         "runtime": {
-          "NationalParks.dll": {}
+          "NationalPark.dll": {}
         },
         "compile": {
-          "NationalParks.dll": {}
+          "NationalPark.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3232,7 +3227,7 @@
     }
   },
   "libraries": {
-    "NationalParks/1.0.0": {
+    "NationalPark/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

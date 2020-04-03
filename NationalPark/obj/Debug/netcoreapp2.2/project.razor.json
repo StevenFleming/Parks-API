@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/NationalParks.csproj",
+  "FilePath": "/Users/apple/Desktop/NationalParkAPI.Solution/NationalPark/NationalPark.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,7 +2958,7 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "NationalParks",
+  "RootNamespace": null,
   "Documents": [],
   "SerializationFormat": "0.2"
 }
