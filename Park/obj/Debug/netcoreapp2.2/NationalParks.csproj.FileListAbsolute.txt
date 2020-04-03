@@ -1,0 +1,14 @@
+/Users/apple/Desktop/ParkAPI.Solution/Park/bin/Debug/netcoreapp2.2/Park.deps.json
+/Users/apple/Desktop/ParkAPI.Solution/Park/bin/Debug/netcoreapp2.2/Park.runtimeconfig.json
+/Users/apple/Desktop/ParkAPI.Solution/Park/bin/Debug/netcoreapp2.2/Park.runtimeconfig.dev.json
+/Users/apple/Desktop/ParkAPI.Solution/Park/bin/Debug/netcoreapp2.2/Park.dll
+/Users/apple/Desktop/ParkAPI.Solution/Park/bin/Debug/netcoreapp2.2/Park.pdb
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.csprojAssemblyReference.cache
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.csproj.CoreCompileInputs.cache
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.RazorAssemblyInfo.cache
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.RazorAssemblyInfo.cs
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.AssemblyInfoInputs.cache
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.AssemblyInfo.cs
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.RazorTargetAssemblyInfo.cache
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.dll
+/Users/apple/Desktop/ParkAPI.Solution/Park/obj/Debug/netcoreapp2.2/Park.pdb
