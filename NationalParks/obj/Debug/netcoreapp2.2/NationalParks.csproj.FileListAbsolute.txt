@@ -1,0 +1,14 @@
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/bin/Debug/netcoreapp2.2/NationalParks.deps.json
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/bin/Debug/netcoreapp2.2/NationalParks.runtimeconfig.json
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/bin/Debug/netcoreapp2.2/NationalParks.runtimeconfig.dev.json
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/bin/Debug/netcoreapp2.2/NationalParks.dll
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/bin/Debug/netcoreapp2.2/NationalParks.pdb
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.csprojAssemblyReference.cache
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.csproj.CoreCompileInputs.cache
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.RazorAssemblyInfo.cache
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.RazorAssemblyInfo.cs
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.AssemblyInfoInputs.cache
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.AssemblyInfo.cs
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.RazorTargetAssemblyInfo.cache
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.dll
+/Users/apple/Desktop/NationalParksAPI.Solution/NationalParks/obj/Debug/netcoreapp2.2/NationalParks.pdb
