@@ -18,7 +18,7 @@ namespace Park.Controllers
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<State>> Get(string location, string name)
+    public ActionResult<IEnumerable<State>> Get(string location, string name, int limit, int start)
     {
       var query = _db.States.AsQueryable();
 
@@ -31,6 +31,18 @@ namespace Park.Controllers
       {
         query = query.Where(entry => entry.Name == name);
       }
+
+      //limits results
+      const int maxLimit = 1000;
+
+      int startVal = (start > 0) ? start : 1;
+      int limitVal = 10;
+      if (limit > 0)
+      {
+        limitVal = (limit > maxLimit) ? maxLimit : limit;
+      }
+      query = query.Skip(startVal - 1).Take(limitVal);
+
 
       return query.ToList();
     }
@@ -63,7 +75,5 @@ namespace Park.Controllers
       _db.States.Remove(stateToDelete);
       _db.SaveChanges();
     }
-
-
   }
 }
